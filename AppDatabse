@@ -1,0 +1,5 @@
+@Database(entities = arrayOf(...), version = 1)
+@TypeConverters(Converters::class)
+abstract class AppDatabse : RoomDatabase() {
+    ...
+}
